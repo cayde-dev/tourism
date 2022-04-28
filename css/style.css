@@ -1,5 +1,6 @@
 :root {
     --main-bg-color: #ffffff;
+    --main-blocks-color: #36363f;
     --main-fontsize: 13px;
 }
 
@@ -14,5 +15,25 @@
 .container {
     width: 960px;
     margin: 0 auto;
-    background-color: #000;
+}
+
+/* Blocks */
+
+.header {
+    background-color: var(--main-blocks-color);
+    background-image: url(../img/header__bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 589px;
+}
+
+.logo {
+    text-align: center;
+}
+
+/* Elements */
+
+.page__header {
+    padding: 83px 0;
 }
