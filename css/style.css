@@ -6,6 +6,7 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
     --main-bg-color: #ffffff;
     --main-font-color-base: #ffffff;
     --main-font-color-primary: #b7b7b7;
+    --main-font-color-black: #000000;
     --main-blocks-color: #36363f;
     --main-fontsize: 13px;
 }
@@ -70,6 +71,78 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
     color: var(--main-font-color-primary);
 }
 
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-header {
+    display: flex;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 50px 0;
+    color: var(--main-font-color-black);
+}
+
+.gallery-header p {
+    width: 508px;
+    padding: 10px 0;
+    margin-left: 60px;
+    opacity: .6;
+}
+
+.gallery-header .title {
+    font-size: 30px;
+    line-height: 57px;
+    color: var(--main-font-color-black);
+    letter-spacing: normal;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.gallery__block-right {
+    position: relative;
+    top: -72px;
+    z-index: 1;
+}
+
+.block-image:first-child {
+    width: 300px;
+    height: 202px;
+}
+
+.block-image:nth-child(2) {
+    width: 400px;
+    height: 265px;
+}
+.block-image:nth-child(3) {
+    position: relative;
+    top: -63px;
+    width: 300px;
+    height: 306px;
+}
+
+.block-image:nth-child(4) {
+    width: 180px;
+    height: 110px;
+}
+
+.block-image:nth-child(5) {
+    position: relative;
+    right: 180px;
+    bottom: -110px;
+    width: 180px;
+    height: 133px;
+}
+
+.block-image:nth-child(6) {
+    position: relative;
+    left: 480px;
+    bottom: 306px;
+    width: 220px;
+    height: 243px;
+}
+
 /* Elements */
 
 .page__header {
@@ -84,3 +157,12 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
 .message__title {
     margin-bottom: 10px;
 }
+
+.gallery__images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 508px;
+}
+
+/* Modificators */
