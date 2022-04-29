@@ -24,7 +24,7 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
 }
 
 .text-white {
-    color: var(--main-font-color-base);s
+    color: var(--main-font-color-base);
 }
 
 .text-header {
