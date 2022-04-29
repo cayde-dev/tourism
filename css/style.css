@@ -106,6 +106,10 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
     z-index: 1;
 }
 
+.block-image {
+    background-color: var(--main-blocks-color);
+}
+
 .block-image:first-child {
     width: 300px;
     height: 202px;
@@ -143,6 +147,27 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
     height: 243px;
 }
 
+.banner {
+    font-size: 16px;
+    line-height: 26px;
+    min-height: 326px;
+    background-color: var(--main-blocks-color);
+    background-image: url("../img/banner__bg.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.banner span {
+    font-size: 23px;
+    line-height: 20px;
+    border: 1px solid #ffffff;
+}
+
+.banner p {
+    font-weight: lighter;
+}
+
 /* Elements */
 
 .page__header {
@@ -163,6 +188,29 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
     flex-wrap: wrap;
     width: 700px;
     height: 508px;
+}
+
+.banner__content {
+    padding: 110px 0;
+}
+
+.banner__text {
+    padding: 10px;
+}
+
+.banner__message {
+    padding: 0 192px;
+    margin-top: 40px;
+}
+
+/* Links */
+
+.images__link {
+    opacity: .8;
+}
+
+.images__link:hover {
+    opacity: 1;
 }
 
 /* Modificators */
