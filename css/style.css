@@ -21,7 +21,7 @@
 
 .header {
     background-color: var(--main-blocks-color);
-    background-image: url(../img/header__bg.jpg);
+    background-image: url("../img/header__bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
