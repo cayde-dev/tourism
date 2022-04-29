@@ -1,15 +1,17 @@
-body, h1, h2, h3, h4, h5, h6, img, a {
+body, h1, h2, h3, h4, h5, h6, img, a, p {
     margin: 0;
 }
 
-    :root {
+:root {
     --main-bg-color: #ffffff;
+    --main-font-color-base: #ffffff;
+    --main-font-color-primary: #b7b7b7;
     --main-blocks-color: #36363f;
     --main-fontsize: 13px;
 }
 
 .page {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-fontsize);
     background-color: var(--main-bg-color);
     padding: 0;
@@ -19,6 +21,14 @@ body, h1, h2, h3, h4, h5, h6, img, a {
 .container {
     width: 960px;
     margin: 0 auto;
+}
+
+.text-white {
+    color: var(--main-font-color-base);s
+}
+
+.text-header {
+    font-weight: regular;
 }
 
 /* Blocks */
@@ -32,12 +42,45 @@ body, h1, h2, h3, h4, h5, h6, img, a {
     min-height: 589px;
 }
 
+.message {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--main-font-color-base);
+}
+
 .logo {
     text-align: center;
+}
+.title {
+    font-size: 63px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    line-height: 57px;
+    color: var(--main-font-color-base);
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 23px;
+    line-height: 35px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--main-font-color-primary);
 }
 
 /* Elements */
 
 .page__header {
     padding: 83px 0;
+}
+
+.header__message {
+    padding-right: 400px;
+    padding-top: 195px;
+}
+
+.message__title {
+    margin-bottom: 10px;
 }
