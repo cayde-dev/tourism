@@ -168,6 +168,10 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
     font-weight: lighter;
 }
 
+.statistics {}
+font-size: 14px;
+line-height: 25px;
+
 /* Elements */
 
 .page__header {
@@ -203,6 +207,28 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
     margin-top: 40px;
 }
 
+.statistics__title {
+    font-size: 30px;
+    line-height: 57px;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.statistics__subtitle {
+    font-size: 30px;
+    line-height: 57px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.statistics__message {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+
 /* Links */
 
 .images__link {
@@ -214,3 +240,7 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
 }
 
 /* Modificators */
+
+.text--big {
+
+}
