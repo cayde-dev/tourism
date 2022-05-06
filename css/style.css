@@ -9,6 +9,7 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
     --main-font-color-black: #000000;
     --main-blocks-color: #36363f;
     --main-fontsize: 13px;
+    --main-statistics-bg-color: #f5f5f5;
 }
 
 .page {
@@ -158,19 +159,56 @@ body, h1, h2, h3, h4, h5, h6, img, a, p {
     text-align: center;
 }
 
-.banner span {
+.block-title {
     font-size: 23px;
     line-height: 20px;
     border: 1px solid #ffffff;
+    padding: 10px;
 }
 
-.banner p {
+.block-message {
     font-weight: lighter;
 }
 
-.statistics {}
+.statistics {
 font-size: 14px;
 line-height: 25px;
+padding-bottom: 70px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-statistics-bg-color);
+    list-style: none;
+    font-size: 28px;
+    text-align: center;
+}
+
+.element span {
+    font-size: 28px;
+    font-weight: regular;
+}
+
+.element p {
+    font-size: 17px;
+}
+
+.footer {
+    background-color: var(--main-blocks-color);
+    background-image: url("../img/footer__bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 13px;
+    line-height: 26px;
+    padding: 117px 0;
+}
+
+.footer__message {
+    padding: 25px 170px;
+}
 
 /* Elements */
 
@@ -198,9 +236,6 @@ line-height: 25px;
     padding: 110px 0;
 }
 
-.banner__text {
-    padding: 10px;
-}
 
 .banner__message {
     padding: 0 192px;
@@ -226,8 +261,20 @@ line-height: 25px;
     font-size: 14px;
     line-height: 25px;
     font-weight: 300;
+    padding-bottom: 10px;
 }
 
+.statistics__list {
+    padding: 15px 60px;
+}
+
+.footer__video {
+    padding: 90px 0;
+}
+
+.footer__logo {
+    padding-top: 26px;
+}
 
 /* Links */
 
@@ -237,10 +284,4 @@ line-height: 25px;
 
 .images__link:hover {
     opacity: 1;
-}
-
-/* Modificators */
-
-.text--big {
-
 }
